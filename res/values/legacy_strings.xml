@@ -45,4 +45,7 @@
     <string name="package_version">Package version</string> 
     <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
 
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
+
 </resources>
