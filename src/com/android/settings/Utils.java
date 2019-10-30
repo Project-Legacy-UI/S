@@ -1263,4 +1263,11 @@ public final class Utils extends com.android.settingslib.Utils {
                         .config_biometric_protected_package_names));
         return protectedPackageNames != null && protectedPackageNames.contains(packageName);
     }
+
+    public static String normalizeTitleCaseIfRequired(Context context, String input) {
+        if (!context.getResources().getBoolean(R.bool.language_capitalizes_nouns)) {
+            return input.toLowerCase();
+        }
+        return input;
+    }
 }
