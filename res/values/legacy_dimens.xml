@@ -15,4 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- circle avatar size dimensions-->
+    <dimen name="circle_avatar_size">40dp</dimen>
+
 </resources>
