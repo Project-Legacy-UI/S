@@ -28,4 +28,7 @@
     <string name="reset">Reset</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
