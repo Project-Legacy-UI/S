@@ -95,4 +95,9 @@
         android:order="20"
         settings:controller="com.android.settings.applications.SpecialAppAccessPreferenceController"/>
 
+    <Preference
+        android:key="spoofing"
+        android:title="@string/spoofing_title"
+        android:summary="@string/spoofing_summary"
+        android:fragment="com.android.settings.fragments.Spoof" />
 </PreferenceScreen>
