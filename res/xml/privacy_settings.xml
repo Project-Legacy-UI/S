@@ -54,4 +54,10 @@
         android:selectable="false"
         settings:controller="com.android.settings.backup.BackupInactivePreferenceController" />
 
+        <!-- Privacy -->
+        <PreferenceScreen
+            android:key="privacy_legacy_category"
+            android:title="@string/privacy_legacy_title"
+            android:summary="@string/privacy_legacy_summary"
+            android:fragment="com.android.settings.fragments.PrivacyLegacy" />
 </PreferenceScreen>
